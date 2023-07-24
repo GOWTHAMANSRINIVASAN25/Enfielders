@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        body{
+            background-image:url('wp11412719-royal-enfield-hunter-350-wallpapers.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        table{
+            border-style: double; 
+            margin-left: auto;
+             margin-right: auto; 
+             margin-bottom: auto;
+             padding:30px; 
+             border-color:antiquewhite;
+             background-color:whitesmoke;
+             background-image:url('bike.jpg');
+             background-repeat:no-repeat;
+            background-size: cover;
+        }
+        td{
+            font-family:Bold;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; color: bisque;">Registration Form</h1>
+<table>
+    <form action="">
+        <tr>
+        <td>Enter Name</td>
+        <td>
+            <input type="text" name="name">
+        </td>
+    </tr>
+    <tr>
+        <td>Enter Email</td>
+        <td>
+            <input type="email" name="email">
+        </td>
+    </tr>
+    <tr>
+        <td>Enter DOB</td>
+        <td>
+            <input type="date" name="date">
+        </td>
+    </tr>
+    <tr>
+        <td>Enter Password</td>
+        <td>
+            <input type="password" name="password" required="required">
+        </td>
+    </tr>
+    <tr>
+        <td>Enter Mobilenumber</td>
+        <td>
+            <input type="number" name="name">
+        </td>
+    </tr>
+    <tr>
+        <td>Choose a city</td>
+        <td>
+            <select name="city" id="city">
+                <option value="Chennai">Chennai</option>
+                <option value="Coimbatore">Coimbatore</option>
+                <option value="Salem">Salem</option>
+                <option value="others" style="width: 1px;">others</option>
+              </select>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Gender
+        </td>
+        <td>
+            <input type="radio" name="Gender" value="male">Male
+            <input type="radio" name="Gender" value="Female">Female
+        </td>
+    </tr>
+    <tr>
+        <td>Address</td>
+        <td>
+            <address><textarea rows="7" cols="10" name="Address"></textarea></address>
+        </td>
+    </tr>
+    <tr>
+        <td>Choose your model</td>
+        <td>
+            <select name="bike" id="bike">
+                <option value="bullet">Bullet</option>
+                <option value="Classic">Classic</option>
+                <option value="ThunderBird">ThunderBird</option>
+                <option value="Hunter 350">Hunter 350</option>
+                <option value="others">others</option>
+              </select> 
+        </td>
+    </tr>
+    <tr>
+        <td><input type="submit" style="color: blue;" formaction="login page.html"></td>
+        <td><input type="reset" style="color:red"></td>
+    </tr>
+    </form>
+</table>
+</body>
+</html>
